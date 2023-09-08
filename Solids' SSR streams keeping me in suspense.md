@@ -78,8 +78,11 @@ src/
 ├── entry-server.tsx
 ├── root.tsx
 ```
+
 And working Solid js app.
-![[Pasted image 20230905182112.png]]
+
+![](https://raw.githubusercontent.com/SetupCZ/Solids-SSR-streams-keeping-me-in-suspense/2aae6b551ba5bc3b65f90004f7b050452d3498e3/Pasted%20image%2020230905182112.png)
+
 ### Enabling SSR stream
 Solid makes it very simple for us to enable SSR streams. Just switch the `renderAsync` function for `renderStream` in the `entry-server.ts` file and we're good to go.
 
@@ -188,20 +191,20 @@ Then it waits for the nearest suspense surrounding async read, which is the head
 <h1>{item()?.name}</h1>
 ```
 
-![[Screen Recording 2023-09-08 at 18.10.49.mov]]
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2Q1cDNxZTRzMDI5dXhpZ2tvejE2M3FwcDM5d2pqeWdqdXl3MmJ0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydZv7ki1PBQey5tObY/giphy.gif)
 
 In the initial HTML response, you can see the loading placeholder between the header and the footer. But also there is a template element with some long id. Thats where the home page will be eventually placed.   
 
-![[Pasted image 20230908182614.png]]
+![](https://github.com/SetupCZ/Solids-SSR-streams-keeping-me-in-suspense/blob/2aae6b551ba5bc3b65f90004f7b050452d3498e3/Pasted%20image%2020230908182614.png?raw=true)
 
 When the first set of data are fetched and rendered on the server, they are streamed to the client and appended to the end of the document. 
 We get the next UI state in a template and a script responsible for moving the template to its place.
 
-![[Pasted image 20230908184909.png]]
+![](https://github.com/SetupCZ/Solids-SSR-streams-keeping-me-in-suspense/blob/2aae6b551ba5bc3b65f90004f7b050452d3498e3/Pasted%20image%2020230908184909.png?raw=true)
 
 After that we get another template including the list of names and data we need to hydrate it.
 
-![[Pasted image 20230908185203.png]]
+![](https://github.com/SetupCZ/Solids-SSR-streams-keeping-me-in-suspense/blob/2aae6b551ba5bc3b65f90004f7b050452d3498e3/Pasted%20image%2020230908185203.png?raw=true)
 
 The integration of Server-Side Rendering (SSR) with Suspense in web development is an exciting advancement. This combination allows for the progressive updating of web pages, providing a smoother and more engaging user experience. By strategically implementing suspense boundaries, developers can visually indicate loading states, enhancing overall application quality. 
 
