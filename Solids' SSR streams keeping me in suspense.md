@@ -1,3 +1,5 @@
+# Solids' SSR streams keeping me in suspense
+
 Recently i had the privilege to experience the JS nation conference in beautiful city of Amsterdam, where cutting-edge tech enthusiasts gather to discuss the latest trends and innovations.
 
 Conference, was a feast of knowledge and insights, and I had the privilege of attending a captivating talk that promised to demystify the intricate world of asynchronous consistency. Ryan Carniatos' talk titled "SolidJS: Why All the Suspense?" kept me in suspense.
