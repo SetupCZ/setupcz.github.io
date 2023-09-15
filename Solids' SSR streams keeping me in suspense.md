@@ -83,7 +83,7 @@ src/
 
 And working Solid js app.
 
-![](https://setupcz.github.io/helloWorld.html)
+![](https://setupcz.github.io/helloWorld.png)
 
 ### Enabling SSR stream
 Solid makes it very simple for us to enable SSR streams. Just switch the `renderAsync` function for `renderStream` in the `entry-server.ts` file and we're good to go.
