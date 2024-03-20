@@ -1,0 +1,16 @@
+{
+  "name": "setupcz.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:load-testing-with-k6": "markdown-to-html --source load-testing-with-k6/index.md --output load-testing-with-k6/index.html --no-corners  --no-dark-mode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SetupCZ/setupcz.github.io.git"
+  },
+  "private": true,
+  "dependencies": {
+    "markdown-to-html-cli": "^4.1.0"
+  }
+}
