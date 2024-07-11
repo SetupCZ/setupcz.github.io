@@ -1,0 +1,137 @@
+![](/cv/profile.jpg)
+
+# Dan Jarkovský
+
+jarkovsky.d@gmail.com <br/>
+Zlín, Czech Republic <br/>
+www.linkedin.com/in/jarkovsky-dan <br/>
+https://setupcz.github.io/
+
+I'm a full-stack developer and team lead at Qest Technologies, working on the Heureka project. Over the past two years,
+my team of four has been integrated with Heureka's Road to product team, managing eight projects including
+category-search,
+homepage and product compare, focusing on re-platforming, performance optimization and enabling feature parity for
+every Heureka Group country.
+
+## Lead Developer & Main Contributor - Heureka Group - Product Compare API Project
+
+Heureka Group | Qest technologies s.r.o.<br/>
+April 2023 - Present
+
+- __Project Overview:__ Lead the development of a greenfield NestJS API designed to facilitate CRUD operations for
+  product comparison on Heureka.
+- __Technologies Used:__ Utilized NestJS and Firestore for backend development. Implemented monitoring and logging using
+  Prometheus and Pino logger, with visualization through Grafana. Deployed the API on Kubernetes.
+- __Key Responsibilities:__
+    - Led the project from concept to deployment, ensuring robust and scalable architecture.
+    - Developed and maintained core features, ensuring high performance and reliability.
+    - Integrated comprehensive monitoring, logging and alerting solutions to track system health and performance.
+- __Achievements:__
+    - Improved user experience on Heureka by enabling seamless product comparisons.
+    - Achieved feature parity on the Bulgarian version of Heureka.
+    - Enhanced system observability and troubleshooting capabilities through the effective use of metrics and logs.
+
+## Lead Developer & Solution Architect - Heureka Group - Category-Search Multitenant Application
+
+Heureka Group | Qest technologies s.r.o.<br/>
+August 2022 - April 2023
+
+- **Project Overview**: Led the refactor of the category-search project to implement multitenancy, ensuring the
+  application could handle different data sources for various countries with unique data structures.
+- **Key Responsibilities**:
+    - Designed a solution to enable multitenancy, involving extensive frontend and backend refactors for
+      zero downtime releases.
+    - Unified different data structures on the backend and refactored the frontend to accommodate the new structure.
+    - Leveraged NestJS dependency injection extensively to support the multitenant architecture.
+    - Conducted thorough planning and design to ensure seamless implementation.
+    - Implemented comprehensive testing, covering unit, integration, and end-to-end tests.
+    - Simplified the Kubernetes deployment configuration
+- **Technologies Used**: NestJS, Prometheus for metrics, Kubernetes, ReactJS, Redux Toolkit Query.
+- **Achievements**:
+    - Streamlined the deployment process, reducing the number of services to maintain.
+    - Successfully delivered a robust multitenant application, enhancing the overall efficiency and scalability.
+    - Enabled the deployment of Heureka in new countries with minimal impact on existing solution.
+
+## Fullstack developer - Happenee - Event Engagement Platform
+
+Qest technologies s.r.o. <br/>
+October 2021 - August 2022
+
+- **Project Overview**: Contributed to the development of an event engagement platform, enhancing features, performance
+  and boosting user engagement.
+- **Key Responsibilities**:
+    - Developed and maintained features such as event management, social wall, live chat, authentication and
+      authorization flow, and administration of event modules.
+    - Played a key role in rewriting the old PHP application using modern technologies, resulting in improved
+      maintainability and extensibility.
+- **Technologies Used**: Express backend with GraphQL, Apollo Server, Nexus, Prisma, PostgreSQL, AWS ECS deployment,
+  NextJS, Prisma.
+- **Achievements**:
+    - Enhanced existing features and introduced new functionalities like live chat and public user profiles,
+      significantly boosting user engagement and reach.
+    - Improved application performance and scalability by implementing automatic deployment and custom domain
+      registration for customers.
+
+## Tech Stack
+Typescript | Node.js | Nest js | React | C# | .NET | Apollo | Prisma | PostgreSQL | AWS | Kubernetes | Prometheus | Grafana | Pino | Jest | Cypress | Percy | Docker 
+
+## Work experience
+
+### Qest technologies s.r.o. - Team Lead & Fullstack Developer
+
+August 2022 - Present
+
+### Qest technologies s.r.o. - Fullstack Developer
+
+April 2021 - August 2022
+
+### Self-employed - Fullstack Developer
+
+July 2018 - April 2021
+
+### Poskytuj s.r.o. - Web Programmer
+
+September 2015 - June 2018
+
+## Education
+
+### Tomas Bata University in Zlín
+
+Bachelor's degree 2012 - 2015
+
+### VOŠ a SPŠ Šumperk
+
+IT 2008 - 2012
+
+## Extracurricular
+
+### I try to write
+
+#### Solids' SSR streams keeping me in suspense
+
+https://medium.com/qest/solids-ssr-streams-keeping-me-in-suspense-e0a870d95280 <br />
+The article explains how Suspense in SolidJS addresses asynchronous consistency issues in web development,
+particularly through Server-Side Rendering (SSR) and streaming.
+
+#### Load Testing with k6
+
+https://medium.com/qest/load-testing-with-k6-ef17a1f64def <br />
+The article covers k6, an open-source load testing tool, explaining how to run JavaScript tests via the command line,
+set performance checks and thresholds, simulate various traffic patterns, and export performance data for analysis.
+
+### I also spoke at a meetup
+
+#### How to test a Dragon
+
+https://youtu.be/TDS-xyDXI6s?si=_BiISKHlzR4Y58Ie <br />
+The presentation explores how one of the largest e-commerce companies in the Czech Republic ensures code correctness
+and functionality, covering the testing pyramid, various test types, their purposes, and the use of React Testing
+Library, end-to-end testing principles, and the benefits of switching to Cypress for faster pipelines.
+
+#### NestJS workshop for Direct fidoo developers
+
+The workshop provided an introduction to the NestJS framework. It covered the basics of NestJS, including its
+architecture, modules, controllers, services, and decorators. We learned how to build a simple REST API,
+leverage dependency injection, and use middleware for request handling. We dug deeper into the framework's features,
+such as guards, interceptors, and filters, and discussed testing strategies and best practices. We've finished with an
+example of microservice communication through Redis.

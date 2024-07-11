@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build:load-testing-with-k6": "markdown-to-html --source load-testing-with-k6/index.md --output load-testing-with-k6/index.html --no-corners  --no-dark-mode"
+    "build:load-testing-with-k6": "markdown-to-html --source load-testing-with-k6/index.md --output load-testing-with-k6/index.html --no-corners  --no-dark-mode",
+    "build:index": "markdown-to-html --source cv/cv.md --output index.html --no-corners  --no-dark-mode --title \"Dan Jarkovský\""
   },
   "repository": {
     "type": "git",
