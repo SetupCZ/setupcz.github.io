@@ -1,6 +1,15 @@
-# Load Testing with k6
+---
+title: 'Load Testing with k6'
+description: ' When developing a web application, ensuring it can handle anticipated traffic is crucial. Load testing, which involves simulating expected traffic, allows you to observe how your application performs under such load. '
+pubDate: 'Jul 10 2024'
+heroImage: '/load-testing-with-k6/cover.png'
+---
+import { Image } from 'astro:assets';
 
-![k6_cover.png](k6_cover.png)
+import httpReqRate from '../../../../public/load-testing-with-k6/httpReqRate.png';
+import dashboard from '../../../../public/load-testing-with-k6/dashboard.png';
+
+# Load Testing with k6
 
 When developing a web application, ensuring it can handle anticipated traffic is crucial. Load testing, which involves
 simulating expected traffic, allows you to observe how your application performs under such load.
@@ -240,7 +249,7 @@ export const options = {
 };
 ```
 
-![img.png](http_req_rate.png)
+<Image src={httpReqRate} alt="" />
 
 In this example, we have a scenario named `constant_load` that uses the `ramping-arrival-rate` executor. It starts
 with 0 iterations per second, ramps up to 50 over 30 seconds, increases further to 100 iterations per second over 1
@@ -273,7 +282,7 @@ avg, min, max, p90 and p95 values that gives us a more detail view of the perfor
      http_req_tls_handshaking.......: avg=722.35µs min=0s       med=0s       max=142.43ms p(90)=0s       p(95)=0s
      http_req_waiting...............: avg=110.88ms min=100.43ms med=108.02ms max=4.28s    p(90)=111.53ms p(95)=112.54ms
      http_reqs......................: 17966  119.773799/s
-  
+
     // ...
 ```
 
@@ -293,7 +302,7 @@ Other export options include CSV, JSON, or streaming to alternative consumers li
 
 A sample Grafana dashboard might display metrics as shown:
 
-![img.png](dashboard.png)
+<Image src={dashboard} alt="" />
 
 We have a nice graph showing all the information we need in time. We can see how the requests are distributed, how many
 failed, and how long they took.

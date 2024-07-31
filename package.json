@@ -1,17 +1,25 @@
 {
   "name": "setupcz.github.io",
-  "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build:load-testing-with-k6": "markdown-to-html --source load-testing-with-k6/index.md --output load-testing-with-k6/index.html --no-corners  --no-dark-mode",
-    "build:index": "markdown-to-html --source cv/cv.md --output index.html --no-corners  --no-dark-mode --title \"Dan Jarkovský\""
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.3",
+    "@astrojs/mdx": "^3.1.3",
+    "@astrojs/rss": "^4.0.7",
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.12.3",
+    "typescript": "^5.5.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/SetupCZ/setupcz.github.io.git"
   },
-  "private": true,
-  "dependencies": {
-    "markdown-to-html-cli": "^4.1.0"
-  }
+  "private": true
 }
