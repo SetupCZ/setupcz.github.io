@@ -6,11 +6,35 @@ import {SITE_TITLE, SITE_DESCRIPTION} from '../consts';
 <html lang="en">
 <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+    <style is:global>
+        .break-inside-avoid {
+            break-inside: avoid;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media print {
+            #profileImage {
+                width: 120px;
+                display: inline-block;
+            }
+
+            .print-hidden {
+                display: none;
+            }
+
+            .print-block {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
 <!--<Header/>-->
 <main>
- <slot />
+    <slot/>
 </main>
 <!--<Footer/>-->
 </body>

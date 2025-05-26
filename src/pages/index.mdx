@@ -3,8 +3,10 @@ layout: '../layouts/Layout.astro'
 ---
 import {Image} from 'astro:assets';
 import profile from '../../public/profile.jpg';
+import pod from '../../public/htmxPod.png';
+import aws from '../../public/aws-certified-cloud-practitioner.png';
 
-<Image src={profile} alt="" width="200"/>
+<Image src={profile} alt="" width="200" id="profileImage"/>
 
 # Dan Jarkovský
 
@@ -13,16 +15,16 @@ Zlín, Czech Republic <br/>
 www.linkedin.com/in/jarkovsky-dan <br/>
 https://setupcz.github.io/
 
-I'm a full-stack developer and team lead at Qest Technologies, working on the Heureka project. Over the past two years,
-my team of four has been integrated with Heureka's Road to product team, managing eight projects including
-category-search,
-homepage and product compare, focusing on re-platforming, performance optimization and enabling feature parity for
-every Heureka Group country.
+I'm a backend developer at JABLOTRON CLOUD Services, previously working as a full-stack developer and team lead at Qest Technologies.
+During my time at Qest, I worked on the Heureka project where my team of four was integrated with Heureka's Road to product team,
+managing eight projects including category-search, homepage and product compare, focusing on re-platforming,
+performance optimization and enabling feature parity for every Heureka Group country.
 
+<section className="break-inside-avoid">
 ## Lead Developer & Main Contributor - Heureka Group - Product Compare API Project
 
 Heureka Group | Qest technologies s.r.o.<br/>
-April 2023 - Present
+April 2023 - December 2024
 
 - __Project Overview:__ Lead the development of a greenfield NestJS API designed to facilitate CRUD operations for
 product comparison on Heureka.
@@ -36,7 +38,9 @@ Prometheus and Pino logger, with visualization through Grafana. Deployed the API
   - Improved user experience on Heureka by enabling seamless product comparisons.
   - Achieved feature parity on the Bulgarian version of Heureka.
   - Enhanced system observability and troubleshooting capabilities through the effective use of metrics and logs.
+</section>
 
+<section className="break-inside-avoid">
 ## Lead Developer & Solution Architect - Heureka Group - Category-Search Multitenant Application
 
 Heureka Group | Qest technologies s.r.o.<br/>
@@ -56,7 +60,9 @@ application could handle different data sources for various countries with uniqu
   - Streamlined the deployment process, reducing the number of services to maintain.
   - Successfully delivered a robust multitenant application, enhancing the overall efficiency and scalability.
   - Enabled the deployment of Heureka in new countries with minimal impact on existing solution.
+</section>
 
+<section className="break-inside-avoid">
 ## Fullstack developer - Happenee - Event Engagement Platform
 
 Qest technologies s.r.o. <br/>
@@ -76,11 +82,13 @@ NextJS, Prisma.
 significantly boosting user engagement and reach.
   - Improved application performance and scalability by implementing automatic deployment and custom domain
 registration for customers.
+</section>
 
 ## Tech Stack
 
 Typescript | Node.js | Nest js | React | C# | .NET | Apollo | Prisma | PostgreSQL | AWS | Kubernetes | Prometheus | Grafana | Pino | Jest | Cypress | Percy | Docker
 
+<section className="break-inside-avoid">
 ## Work experience
 
 ### JABLOTRON CLOUD Services s.r.o. - Backend Developer
@@ -112,7 +120,9 @@ Bachelor's degree 2012 - 2015
 ### VOŠ a SPŠ Šumperk
 
 IT 2008 - 2012
+</section>
 
+<section className="break-inside-avoid">
 ## Extracurricular
 
 ### I try to write
@@ -147,8 +157,13 @@ such as guards, interceptors, and filters, and discussed testing strategies and 
 example of microservice communication through Redis.
 
 #### I spoke about HTMX, Load testing with k6 and micro-frontends on a podcast
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6IqBOSDwHpEdSDuKHoQXcI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<Image src={pod} className="hidden print-block" alt="" height="150"/>
+<iframe style="border-radius:12px" className="print-hidden" src="https://open.spotify.com/embed/episode/6IqBOSDwHpEdSDuKHoQXcI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Certifications
 ### AWS Certified Cloud Practitioner
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c8e06ef1-101d-4027-a6e6-285836294c35" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<Image src={aws} className="hidden print-block" alt="" height="150"/>
+<div className="print-hidden" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c8e06ef1-101d-4027-a6e6-285836294c35" data-share-badge-host="https://www.credly.com">
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</div>
+</section>
